@@ -78,6 +78,10 @@ Usage of onlyFakeIP:
 
 The default prefix used by the program is 11.0.0.0. This segment belongs to the U.S. Department of Defense (it is also a segment that is often used for "public IP using on private networks"). If you don’t really want to be **accidentally** spied on by the DoD , you may wish to change it to 10.0.0.0, or someone you An IP segment that may never be used in a lifetime
 
+**推荐先使用SmartDNS等DNS缓存与转发程序**，把确实需要被代理的域名分流发到本程序，以减轻发生意外的可能性
+
+It is recommended to first use a DNS caching and forwarding program such as SmartDNS to offload the domain names that really need to be proxied to this program to reduce the possibility of accidents.
+
 # License
 
 **MIT**
